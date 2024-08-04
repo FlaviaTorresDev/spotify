@@ -1,7 +1,6 @@
 package flavia.dev.spotify.cliente;
 
 import com.fasterxml.jackson.databind.annotation.JsonNaming;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;
 
 @JsonNaming(PropertyNamingStrategies.SnakeCaseStrategy.class)

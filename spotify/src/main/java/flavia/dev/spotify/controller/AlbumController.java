@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import flavia.dev.spotify.cliente.Album;
+import flavia.dev.spotify.cliente.AlbumSpotifyClient;
+import flavia.dev.spotify.cliente.LoginRequest;
 import flavia.dev.spotify.controller.cliente.AuthSpotifyClient;
 
 
