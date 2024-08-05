@@ -3,45 +3,44 @@ package flavia.dev.spotify.cliente;
 import feign.form.FormProperty;
 
 public class LoginRequest {
-	
-	   @FormProperty("grant_type")
-	    private String grantType;
-	    @FormProperty("client_id")
-	    private String clientId;
-	    @FormProperty("client_secret")
-	    private String clientSecret;
 
-	    public LoginRequest() {
-	    }
+    @FormProperty("grant_type")
+    private String grantType;
+    @FormProperty("client_id")
+    private String clientId;
+    @FormProperty("client_secret")
+    private String clientSecret;
 
-	    public LoginRequest(String grantType, String clientId, String clientSecret) {
-	        this.grantType = grantType;
-	        this.clientId = clientId;
-	        this.clientSecret = clientSecret;
-	    }
+    public LoginRequest() {
+    }
 
-	    public String getGrantType() {
-	        return grantType;
-	    }
+    public LoginRequest(String grantType, String clientId, String clientSecret) {
+        this.grantType = grantType;
+        this.clientId = clientId;
+        this.clientSecret = clientSecret;
+    }
 
-	    public void setGrantType(String grantType) {
-	        this.grantType = grantType;
-	    }
+    public String getGrantType() {
+        return grantType;
+    }
 
-	    public String getClientId() {
-	        return clientId;
-	    }
+    public void setGrantType(String grantType) {
+        this.grantType = grantType;
+    }
 
-	    public void setClientId(String clientId) {
-	        this.clientId = clientId;
-	    }
+    public String getClientId() {
+        return clientId;
+    }
 
-	    public String getClientSecret() {
-	        return clientSecret;
-	    }
+    public void setClientId(String clientId) {
+        this.clientId = clientId;
+    }
 
-	    public void setClientSecret(String clientSecret) {
-	        this.clientSecret = clientSecret;
-	    }
-	}
+    public String getClientSecret() {
+        return clientSecret;
+    }
 
+    public void setClientSecret(String clientSecret) {
+        this.clientSecret = clientSecret;
+    }
+}
